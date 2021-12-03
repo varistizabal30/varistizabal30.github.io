@@ -286,7 +286,7 @@ footer{
 .lista-footer li{
     list-style: none;
     margin-bottom: 1.2rem;
-    margin-right:  24.2rem;;
+    margin-right:  24.2rem;
 }
 .lista-footer a{
     color: #FFFFFF;
@@ -342,6 +342,7 @@ footer{
     color: #F3603B;
 }
 
+/* Estilos de media query para pantallas de 1200 px - 375 px */
 @media (max-width:1200px){
     .nav-header{
         display: none;
@@ -352,10 +353,12 @@ footer{
     .seccion-principal{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     #imagen-seccion-principal{
+        height: 90vh;
+        width: 90vw;
         order: -1;
-        width: 100vw
     }
     .fa-bars{
         display:flex;
@@ -375,14 +378,17 @@ footer{
         flex-direction: column;
     }
     .content-article-personas{
-        padding-right: 1rem;
-        padding-left: 1.8rem;
+        align-items: center;
+        justify-content: center;
+        /* padding-right: 1rem;
+        padding-left: 1.8rem; */
     }
     .article-contenidos-seccion-secundaria h3{
         text-align: center;
     }
     .content-personas{
         display:none;
+        justify-content: center;
     }
     .content-unhide-mobile{
         align-items: center;
@@ -398,6 +404,7 @@ footer{
         font-size: 3rem;
     }
     .section-button{
+        height: auto;
         flex-direction: column;
     }
     .section-button h5{
@@ -409,22 +416,26 @@ footer{
     }
     footer{
         flex-direction: column-reverse;
-        height: 45vh;
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-formulario{
+        margin-top: 10rem;
     }
     .footer-principal-redes{
+        background-color: #1E1E26;
         justify-content: center;
     }
-    .logo{
-        align-items: center;
+    footer .logo{
+        align-self: center;
     }
     .span-mobile{
-        display: flex;
         color: #8C8C94;
-        padding-left: 4rem;
+        display: flex;
         font-size: 1.25rem;
         font-weight: 500;
-        line-height: 1.8rem;
         justify-content: center;
+        line-height: 1.8rem;
         margin: 1rem;
         text-align: center;
     }
@@ -438,13 +449,15 @@ footer{
         margin-right:  2rem;
     }
     .lista-footer{
-        height: 20vh;
+        display: flex;
+        /* height: 20vh; */
         padding-top: 1rem;
         padding-bottom: 1rem;
         text-align: center;
     }
     .lista-footer li{
-        margin-right:  4rem;;
+        margin-right:  1rem;
+        padding-bottom: 1rem;
     }
     .footer-formulario span{
         display: none;
