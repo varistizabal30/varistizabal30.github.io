@@ -375,6 +375,13 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .content-article-personas{
+        padding-right: 1rem;
+        padding-left: 1.8rem;
+    }
+    .article-contenidos-seccion-secundaria h3{
+        text-align: center;
+    }
     .content-personas{
         display:none;
     }
@@ -383,6 +390,7 @@ footer{
         background-color:#FAFAFA;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         padding-bottom: 1rem;
     }
     .fa-ellipsis-h{
@@ -394,8 +402,11 @@ footer{
         flex-direction: column;
     }
     .section-button h5{
-        text-align: center;
         font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+        width: auto;
     }
     footer{
         flex-direction: column-reverse;
