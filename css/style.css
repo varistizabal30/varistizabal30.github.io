@@ -37,6 +37,7 @@ header{
     justify-content: space-between;
     padding-top: 7.5rem;
     text-align: center;
+    margin: 5rem;
 }
 .nav-header{
     display: flex;
@@ -62,13 +63,16 @@ header{
     display: none;
 }
 /* estilos al main */
+.contenidos-seccion-principal{
+    margin: 6rem;
+}
 .seccion-principal{
     display: flex;
     justify-content:space-between;
 }
 .texto-seccion-principal{
-    height: 386px;
-    width: 439px;
+    height: 38.6rem;
+    width: 43.9rem;
 }
 .texto-seccion-principal h1{
     color: #232C50;
