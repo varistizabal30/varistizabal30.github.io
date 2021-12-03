@@ -115,6 +115,7 @@ header{
 .items-contenido-secundario{
     align-items: flex-start;
     display: flex;
+    margin-bottom: 2rem;
     /* height: 1.58rem;
     width: 4.37rem; */
 
@@ -344,11 +345,18 @@ footer{
 
 /* Estilos de media query para pantallas de 1200 px - 375 px */
 @media (max-width:1200px){
+    header{
+        margin: 2rem;
+        padding-top: 3rem;
+    }
     .nav-header{
         display: none;
     }
     header button{
         display: none;
+    }
+    .contenidos-seccion-principal{
+        margin: 2rem;
     }
     .seccion-principal{
         display: flex;
@@ -362,20 +370,42 @@ footer{
     }
     .fa-bars{
         display:flex;
-        font-size: 2rem;
+        font-size: 3rem;
         justify-content: center;
         padding-left: 1rem;
         text-align: center;
     }
+    .button-start{
+        margin-bottom: 4rem;
+    }
+
+    #button-started-secundario{
+        margin-bottom: 7rem;
+        margin-top: 5rem;
+    }
     .texto-seccion-principal{
         justify-content: center;
-        margin: 1rem;
+        /* margin: 2rem; */
         padding: 1rem;
         text-align: center;
+    }
+    .texto-seccion-principal h1 {
+        margin-bottom: 2rem;
+    }
+    .texto-seccion-principal p {
+        padding-bottom: 2rem;
     }
     .seccion-secundario{
         display: flex;
         flex-direction: column;
+    }
+    .seccion-secundario-contenedor1 h2{
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .seccion-secundario-contenedor1 p{
+        margin-bottom: 3rem;
+        text-align: center;
     }
     .content-article-personas{
         align-items: center;
