@@ -172,7 +172,7 @@ header{
     align-items: center;
     padding-bottom: 4.5rem;
 }
-.content-unhide-movile{
+.content-unhide-mobile{
     background-color:#FAFAFA;
     display: flex;
     flex-direction: column;
@@ -186,7 +186,7 @@ header{
     line-height: 2.5rem;
     text-align: center;
 }
-.content-unhide-movile h4{
+.content-unhide-mobile h4{
     color: #323851;
     font-size: 1.6rem;
     font-weight: 700;
