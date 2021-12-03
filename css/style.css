@@ -70,10 +70,10 @@ header{
     display: flex;
     justify-content:space-between;
 }
-.texto-seccion-principal{
+/* .texto-seccion-principal{
     height: 38.6rem;
     width: 43.9rem;
-}
+} */
 .texto-seccion-principal h1{
     color: #232C50;
     font-size: 5rem;
@@ -269,6 +269,9 @@ footer{
     flex-direction: column;
     justify-content: space-around;
 }
+.span-mobile{
+    display: none;
+}
 .redes-footer{
     display: flex;
     justify-content: space-around;
@@ -366,7 +369,7 @@ footer{
         justify-content: center;
         margin: 1rem;
         padding: 1rem;
-        max-width: 80vw;
+        text-align: center;
     }
     .seccion-secundario{
         display: flex;
@@ -397,10 +400,25 @@ footer{
     footer{
         flex-direction: column-reverse;
         height: 45vh;
-        /* justify-content: space-between; */
     }
     .footer-principal-redes{
         justify-content: center;
+    }
+    .logo{
+        align-items: center;
+    }
+    .span-mobile{
+        display: flex;
+        color: #8C8C94;
+        padding-left: 4rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+    .footer-principal-redes img{
+        margin: 2rem;
     }
     .redes-footer{
         order: -1;
@@ -415,6 +433,9 @@ footer{
         text-align: center;
     }
     .lista-footer li{
-        margin-right:  3rem;;
+        margin-right:  4rem;;
+    }
+    .footer-formulario span{
+        display: none;
     }
 }
